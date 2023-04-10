@@ -8,11 +8,11 @@
  */
 
  return array(
-    'title'      =>__( 'Sidebar Section', 'dev-talks' ),
-    'categories' => array( 'dev-talks' ),
-    'content'    =>'<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"},"blockGap":"20px"}},"className":"has-no-hover-box-shadow"} -->
+	 'title'      => __( 'Sidebar Section', 'dev-talks' ),
+	 'categories' => array( 'dev-talks' ),
+	 'content'    => '<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"},"blockGap":"20px"}},"className":"has-no-hover-box-shadow"} -->
 <div class="wp-block-group has-no-hover-box-shadow" style="margin-bottom:30px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"upper-heading"} -->
-<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">'.esc_html__('Search','dev-talks').'</h3>
+<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">' . esc_html__( 'Search', 'dev-talks' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonUseIcon":true,"backgroundColor":"accent","fontSize":"tiny"} /--></div>
@@ -20,7 +20,7 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"},"blockGap":"20px"}},"className":"has-no-hover-box-shadow"} -->
 <div class="wp-block-group has-no-hover-box-shadow" style="margin-bottom:30px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"upper-heading"} -->
-<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">'.esc_html__('Latest Post','dev-talks').'</h3>
+<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">' . esc_html__( 'Latest Post', 'dev-talks' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:latest-posts /--></div>
@@ -28,7 +28,7 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"},"blockGap":"20px"}},"className":"has-no-hover-box-shadow"} -->
 <div class="wp-block-group has-no-hover-box-shadow" style="margin-bottom:30px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"upper-heading"} -->
-<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">'.esc_html__('Category','dev-talks').'</h3>
+<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">' . esc_html__( 'Category', 'dev-talks' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:categories /--></div>
@@ -36,7 +36,7 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"},"blockGap":"20px"}},"className":"has-no-hover-box-shadow"} -->
 <div class="wp-block-group has-no-hover-box-shadow" style="margin-bottom:30px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"upper-heading"} -->
-<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">'.esc_html__('social','dev-talks').'</h3>
+<h3 class="has-upper-heading-font-size" style="font-style:normal;font-weight:500">' . esc_html__( 'social', 'dev-talks' ) . '</h3>
 <!-- /wp:heading -->
 
 <!-- wp:social-links {"iconBackgroundColor":{},"style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"left"}} -->
@@ -48,5 +48,5 @@
 
 <!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
 <!-- /wp:social-links --></div>
-<!-- /wp:group -->'
+<!-- /wp:group -->',
 );

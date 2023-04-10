@@ -8,9 +8,9 @@
  */
 
 return array(
-    'title'      =>__( 'Banner', 'dev-talks' ),
-    'categories' => array( 'dev-talks' ),
-    'content'    => '<!-- wp:cover {"url":"'.esc_url(get_template_directory_uri()) .'/assets/images/banner.png","id":7,"dimRatio":50,"overlayColor":"black","minHeight":600,"className":"main-banner"} --><main class="wp-block-group alignfull"><div class="wp-block-cover main-banner" style="min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-7" alt="" src="'.esc_url(get_template_directory_uri()) .'/assets/images/banner.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+	'title'      => __( 'Banner', 'dev-talks' ),
+	'categories' => array( 'dev-talks' ),
+	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/images/banner.png","id":7,"dimRatio":50,"overlayColor":"black","minHeight":600,"className":"main-banner"} --><main class="wp-block-group alignfull"><div class="wp-block-cover main-banner" style="min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-7" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/images/banner.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
 <!-- /wp:paragraph -->
 
