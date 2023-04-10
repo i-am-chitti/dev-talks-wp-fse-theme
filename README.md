@@ -49,28 +49,6 @@ Dev Talks Theme comes with a range of features to help you build a modern, user-
 
 ```
 
-## Get Involved in development :rocket:
-
-### Method 1 (Recommended)
-```
-composer create-project rtcamp/dev-talks [folder_name]
-```
-This command is equivalant of cloning the repository and running `composer install && npm install`
-
-### Method 2
-Manually clone this repository using
-```
-git clone [URL to Git repo]
-```
-Having cloned this repository, install node packages and PHP dependencies using
-```
-composer install && npm install
-```
-
-In both the methods, you will be prompted with a theme setup wizard which will help you with the search-replace. That was all! You're good to go with building your block theme. :sparkles:
-
-**Note**: Refer to the `.nvmrc` file to check the supported Node.js version for running this project. If your current Node.js version does not run the project successfully on localhost, please use [Node Version Manager](https://github.com/nvm-sh/nvm) on your terminal to configure the right Node.js version.
-
 ## Development :computer:
 
 
