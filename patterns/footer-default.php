@@ -11,8 +11,8 @@ return array(
 	'title'      => __( 'Footer Default', 'dev-talks' ),
 	'categories' => array( 'dev-talks' ),
 	'content'    => '<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|fourground"}}}},"backgroundColor":"black","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background-color has-black-background-color has-text-color has-background has-link-color"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px","right":"20px","left":"20px"}}},"className":"alignwide"} -->
-<div class="wp-block-columns alignwide" style="padding-top:50px;padding-right:20px;padding-bottom:50px;padding-left:20px"><!-- wp:column {"style":{"spacing":{"blockGap":"20px"}}} -->
+<div class="wp-block-group has-background-color has-black-background-color has-text-color has-background has-link-color"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}},"className":"alignwide"} -->
+<div class="wp-block-columns alignwide" style="padding-top:50px;padding-bottom:50px;"><!-- wp:column {"style":{"spacing":{"blockGap":"20px"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"style":{"typography":{"fontSize":"22px"}},"textColor":"accent"} -->
 <h2 class="has-accent-color has-text-color" style="font-size:22px"><strong>About Me</strong></h2>
 <!-- /wp:heading -->
