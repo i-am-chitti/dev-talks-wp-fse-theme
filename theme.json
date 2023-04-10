@@ -349,8 +349,13 @@
 			},
 			"core/button": {
 		        "border": {
-		          "radius": "0px"
+		          "radius": "0px",
+				  "width": "1px",
+				  "style": "solid"
 		        },
+				"typography": {
+					"textDecoration": "none"
+				},
 		        "color": {
 		          "background": "var(--wp--preset--color--secondary)",
 		          "text": "var(--wp--preset--color--primary)"
