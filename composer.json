@@ -1,0 +1,44 @@
+{
+	"name": "rtcamp/dev-talks",
+	"description": "A starter theme that facilitates a quick head start for developing new block-based themes along with a bunch of developer-friendly features.",
+	"type": "wordpress-theme",
+	"homepage": "https://rtcamp.com/",
+	"license": "GPL-2.0-or-later",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^2.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"automattic/vipwpcs": "^2.3",
+		"dealerdirect/phpcodesniffer-composer-installer": "0.7.2",
+		"sirbrillig/phpcs-variable-analysis": "^2.11.3",
+		"phpunit/phpunit": "^9.5",
+		"wp-phpunit/wp-phpunit": "^6.0",
+		"yoast/phpunit-polyfills": "^1.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"autoload": {
+		"classmap": [
+			"inc/"
+		],
+		"files": [
+			"inc/helpers/custom-functions.php"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Dev_Talks\\Tests\\": "tests/php/"
+		}
+	},
+	"scripts": {
+		"phpcs": "@php ./vendor/bin/phpcs",
+		"phpcs:fix": "@php ./vendor/bin/phpcbf",
+		"post-install-cmd": [
+			"npm i"
+		]
+	}
+}
