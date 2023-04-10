@@ -17,6 +17,15 @@ Dev Talks Theme comes with a range of features to help you build a modern, user-
 - Customizable blog page: The theme comes with a customizable blog page template that allows you to display your blog posts in a clean, modern layout.
 - Responsive design: Dev Talks Theme is designed to be fully responsive, ensuring that your website looks great on all devices.
 
+## Installation
+1. Download this as zip
+2. In your WordPress dashboard, navigate to Appearance > Themes.
+3. Click on the "Add New" button.
+4. Click on the "Upload Theme" button.
+5. Choose the zip file you downloaded in step 1.
+6. Click the "Install Now" button.
+7. Once the theme is installed, click the "Activate" button to activate it.
+8. Create two pages and set one as homepage and other as front page from `Reading` sub-page of `Settings` page in WordPress Dashboard.
 
 ## Understand the Folder Structure :open_file_folder:
 ```
@@ -107,3 +116,8 @@ Run PHP tests.
 npm run test:php
 ```
 
+## Support
+If you need help with Dev Talks Theme, please reach out to our support team at deepak.kumar852182@gmail.com. We are always happy to help with any questions or issues you may have.
+
+## License
+Dev Talks Theme is released under the GPLv2 or later license. You are free to use, modify, and distribute the theme as long as you follow the terms of the license.
