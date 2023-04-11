@@ -348,6 +348,18 @@
 				}
 			},
 			"core/button": {
+				"variations": {
+					"outline": {
+						"spacing": {
+							"padding": {
+								"top": "0.5rem",
+								"bottom": "0.5rem",
+								"right": "2rem",
+								"left": "2rem"
+							}
+						}
+					}
+				},
 		        "border": {
 		          "radius": "0px",
 				  "width": "1px",
@@ -442,7 +454,13 @@
 				"color": {
 					"text": "var:preset|color|primary"
 				}
-
+			},
+			"button": {
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--accent)"
+					}
+				}
 			}
 		},
 		"typography": {
