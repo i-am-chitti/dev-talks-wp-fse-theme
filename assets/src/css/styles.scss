@@ -247,6 +247,12 @@ textarea,
 	color: var(--wp--preset--color--teritary);
 }
 
+/*block group */
+.wp-block-group.is-style-shadow-solid {
+	box-shadow: 10px 10px 0px 0px #000;
+}
+
+
 @media (max-width: 781px) {
 	.dev-talks-theme-col.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
 		flex-basis: min-content !important;

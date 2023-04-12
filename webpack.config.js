@@ -80,6 +80,7 @@ const scripts = {
 	...sharedConfig,
 	entry: {
 		'core-navigation': path.resolve( process.cwd(), 'assets', 'src', 'js', 'core-navigation.js' ),
+		'block-variations': path.resolve( process.cwd(), 'assets', 'src', 'js', 'block-variations.js' ),
 	},
 };
 

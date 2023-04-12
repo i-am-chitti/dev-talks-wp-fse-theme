@@ -36,6 +36,25 @@ class Assets {
 		add_action( 'wp_enqueue_scripts', [ $this, 'register_assets' ] );
 		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_assets' ] );
 		add_filter( 'render_block', [ $this, 'enqueue_block_specific_assets' ], 10, 2 );
+		add_action( 'enqueue_block_editor_assets', [ $this, 'enqueue_block_editor_assets' ] );
+	}
+
+	/**
+	 * Enqueue block editor assets.
+	 *
+	 * @action enqueue_block_editor_assets
+	 */
+	public function enqueue_block_editor_assets() {
+		$this->register_script( 'dev-talks-block-variations', 'js/block-variations.js', [
+			'wp-blocks',
+			'wp-dom-ready',
+			'wp-edit-post'
+		] );
+
+		$this->register_style( 'dev-talks-styles', 'css/styles.css' );
+
+		wp_enqueue_script( 'dev-talks-block-variations' );
+		wp_enqueue_style( 'dev-talks-styles' );
 	}
 
 	/**
