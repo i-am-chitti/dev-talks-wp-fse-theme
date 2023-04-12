@@ -32,22 +32,22 @@ Dev Talks Theme comes with a range of features to help you build a modern, user-
 ### Blocks
 
 1. **Structured FAQ** - A FAQ block that render content in the [SEO structured data](https://developers.google.com/search/docs/appearance/structured-data/faqpage). If you're new to structured data, you can learn more about how [structured data works](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data). This block extends the existing heading core block to inject the SEO data. This is done by adding extra props on the inner core blocks.
-  ![FAQ](./screenshots/structured-faq.png)
+  ![FAQ](./screenshots/faq.gif)
 
 2. **Recipe Card** - A two column recipe card to display recipe title, ingredients, instructions and the dish image.
-  ![Recipe](./screenshots/recipe-block.png)
+  ![Recipe](./screenshots/recipe-card.gif)
 
 ### Block Variation
 
 1. **Group Shadow Variation** - Use group core block with a solid shadow.
-  ![Group Shadow Block Variation](./screenshots/group-shadow-variation.png)
+  ![Group Shadow Block Variation](./screenshots/how-to-group-block-variation.gif)
 
 2. **Media and text variation** - Made a variation of media and text to allow heading, and any other type of block to be put inside the text content instead of having a plain text content.
-  ![Media Text Variation](./screenshots/media-text-variation.png)
+  ![Media Text Variation](./screenshots/media-text-variation.gif)
 
 ### Block Extension
 
-1. **Responsiveness** - Gutenberg offers the padding, margin spacing but they are limited to be applied on all devices. What if we want to have padding, margin, text alignment to selective based on screen type. So, the default blocks are extended to offer responsive controls. User can play around them to offer dynamic spacing, alignment, typography, etc. ![Block Extension](./screenshots/block-extension.png)
+1. **Responsiveness** - Gutenberg offers the padding, margin spacing but they are limited to be applied on all devices. What if we want to have padding, margin, text alignment to selective based on screen type. So, the default blocks are extended to offer responsive controls. User can play around them to offer dynamic spacing, alignment, typography, etc. ![Block Extension](./screenshots/responsiveness.gif)
 
 ## Templates
 
@@ -136,25 +136,25 @@ npm run lint:php:fix #phpcbf
 Run all tests.
 
 ```bash
-npm run test
+pnpm run test
 ```
 
 Run JS tests.
 
 ```bash
-npm run test:js
+pnpm run test:js
 ```
 
 Watch JS tests.
 
 ```bash
-npm run test:js:watch
+pnpm run test:js:watch
 ```
 
 Run PHP tests.
 
 ```bash
-npm run test:php
+pnpm run test:php
 ```
 
 ## Support
