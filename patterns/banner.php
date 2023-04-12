@@ -57,7 +57,7 @@ return array(
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://bloggingfordevs.com/trends/how-it-works/">How it works</a></p>
+<p><a href="#">How it works</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
