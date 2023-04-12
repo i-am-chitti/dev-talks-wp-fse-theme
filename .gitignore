@@ -13,8 +13,6 @@
 
 /node_modules/
 
-#Build
-assets/build
 
 # Enviroment
 .env
