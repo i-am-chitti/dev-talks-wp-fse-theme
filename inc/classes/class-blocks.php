@@ -41,11 +41,6 @@ class Blocks {
 	 */
 	public function register_blocks() {
 
-		// Register example-block Block.
-		register_block_type(
-			DEV_TALKS_BUILD_DIR . '/blocks/example-block/'
-		);
-
 		register_block_type(
 			DEV_TALKS_BUILD_DIR . '/blocks/recipe-card/'
 		);
