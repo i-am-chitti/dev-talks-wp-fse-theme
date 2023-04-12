@@ -7,6 +7,16 @@ Dev Talks Theme is a WordPress Full Site Editing (FSE) theme. It is built with f
 
 View samples - [Here](https://github.com/i-am-chitti/wp-fse-demo/tree/main/themes/dev-talks/screenshots)
 
+## Installation
+1. Download this as zip
+2. In your WordPress dashboard, navigate to Appearance > Themes.
+3. Click on the "Add New" button.
+4. Click on the "Upload Theme" button.
+5. Choose the zip file you downloaded in step 1.
+6. Click the "Install Now" button.
+7. Once the theme is installed, click the "Activate" button to activate it.
+8. Create two pages and set one as homepage and other as front page from `Reading` sub-page of `Settings` page in WordPress Dashboard.
+
 ## Features
 
 Dev Talks Theme comes with a range of features to help you build a modern, user-friendly website:
@@ -17,15 +27,21 @@ Dev Talks Theme comes with a range of features to help you build a modern, user-
 - Customizable blog page: The theme comes with a customizable blog page template that allows you to display your blog posts in a clean, modern layout.
 - Responsive design: Dev Talks Theme is designed to be fully responsive, ensuring that your website looks great on all devices.
 
-## Installation
-1. Download this as zip
-2. In your WordPress dashboard, navigate to Appearance > Themes.
-3. Click on the "Add New" button.
-4. Click on the "Upload Theme" button.
-5. Choose the zip file you downloaded in step 1.
-6. Click the "Install Now" button.
-7. Once the theme is installed, click the "Activate" button to activate it.
-8. Create two pages and set one as homepage and other as front page from `Reading` sub-page of `Settings` page in WordPress Dashboard.
+### Blocks
+
+- Structured FAQ - A FAQ block that render content in the [SEO structured data](https://developers.google.com/search/docs/appearance/structured-data/faqpage). If you're new to structured data, you can learn more about how [structured data works](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data). This block extends the existing heading core block to inject the SEO data. This is done by adding extra props on the inner core blocks. Sample [here](https://i.imgur.com/BviOBXc.png).
+
+- Recipe Card - A two column recipe card to display recipe title, ingredients, instructions and the dish image. Sample [here](https://i.imgur.com/99futMm.png).
+
+### Block Variation
+
+- Group Shadow Variation - Use group core block with a solid shadow. Sample [here](https://i.imgur.com/1wy5UoJ.png)
+
+- Media and text variation - Made a variation of media and text to allow heading, and any other type of block to be put inside the text content instead of having a plain text content. sample [here](https://i.imgur.com/c9OcwZH.png).
+
+### Block Extension
+
+- Responsiveness - Gutenberg offers the padding, margin spacing but they are limited to be applied on all devices. What if we want to have padding, margin, text alignment to selective based on screen type. So, the default blocks are extended to offer responsive controls. User can play around them to offer dynamic spacing, alignment, typography, etc. Sample [here](https://i.imgur.com/ERcX83K.png).
 
 ## Understand the Folder Structure :open_file_folder:
 ```
