@@ -25,7 +25,7 @@
  * @package Dev-Talks
  */
 
-namespace Dev_Talks\Traits;
+namespace Dev_Talks\Inc\Traits;
 
 trait Singleton {
 

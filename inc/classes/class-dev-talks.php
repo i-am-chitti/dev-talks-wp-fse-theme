@@ -5,10 +5,10 @@
  * @package Dev-Talks
  */
 
-namespace Dev_Talks;
+namespace Dev_Talks\Inc;
 
-use Dev_Talks\Traits\Singleton;
-use Dev_Talks\Assets;
+use Dev_Talks\Inc\Traits\Singleton;
+use Dev_Talks\Inc\Assets;
 use \WP_Block_Pattern_Categories_Registry;
 
 /**
@@ -29,6 +29,8 @@ class Dev_Talks {
 
 		// Setup hooks.
 		$this->setup_hooks();
+
+		Blocks::get_instance();
 	}
 
 	/**

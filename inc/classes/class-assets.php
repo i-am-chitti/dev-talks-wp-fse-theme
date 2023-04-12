@@ -5,9 +5,9 @@
  * @package Dev-Talks
  */
 
-namespace Dev_Talks;
+namespace Dev_Talks\Inc;
 
-use Dev_Talks\Traits\Singleton;
+use Dev_Talks\Inc\Traits\Singleton;
 
 /**
  * Class Assets

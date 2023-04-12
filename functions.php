@@ -23,7 +23,7 @@ if ( ! defined( 'DEV_TALKS_BUILD_DIR' ) ) :
 	define( 'DEV_TALKS_BUILD_DIR', untrailingslashit( get_template_directory() ) . '/assets/build' );
 endif;
 
-require_once DEV_TALKS_TEMP_DIR . '/vendor/autoload.php';
+require_once DEV_TALKS_TEMP_DIR . '/inc/helpers/autoloader.php';
 
 /**
  * Theme bootstrap instance.
@@ -33,7 +33,7 @@ require_once DEV_TALKS_TEMP_DIR . '/vendor/autoload.php';
  * @return object Theme bootstrap instance.
  */
 function dev_talks_instance() {
-	return Dev_Talks\Dev_Talks::get_instance();
+	return \Dev_Talks\Inc\Dev_Talks::get_instance();
 }
 
 // Instantiate theme.
