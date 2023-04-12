@@ -13,6 +13,9 @@
 
 /node_modules/
 
+#Build
+assets/build
+
 # Enviroment
 .env
 .wp-env.override.json
