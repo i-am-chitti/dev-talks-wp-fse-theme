@@ -50,5 +50,9 @@ class Blocks {
 			DEV_TALKS_BUILD_DIR . '/blocks/recipe-card/'
 		);
 
+		register_block_type(
+			DEV_TALKS_BUILD_DIR . '/blocks/block-extension/'
+		);
+
 	}
 }
