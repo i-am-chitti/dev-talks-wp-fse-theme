@@ -39,5 +39,34 @@ return array(
 <div class="wp-block-column" style="flex-basis:25%"></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div></div></main>
-<!-- /wp:cover -->',
+<!-- /wp:cover -->
+
+<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"0","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"}}},"backgroundColor":"secbackground"} -->
+<div class="wp-block-columns are-vertically-aligned-center has-secbackground-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"placeholder":"Heading","fontSize":"extra-large"} -->
+<h3 class="wp-block-heading has-extra-large-font-size">Discover the best developer blogs on any tech stack</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>The content Tech Twitter is talking about, minus the noise.</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ranked by machines, curated by humans, updated hourly.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://bloggingfordevs.com/trends/how-it-works/">How it works</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"align":"center","id":1844,"width":512,"height":512,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image aligncenter size-large is-resized is-style-default"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/linked-in.png' . '" alt="linked-in-proof" class="wp-image-1844" width="512" height="512"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+
+',
 );

@@ -12,29 +12,32 @@ const Save = ( props ) => {
 	const blockProps = useBlockProps.save();
 	return (
 		<div { ...blockProps }>
-			<RichText.Content tagName="h2" value={ title } />
+			<div className="recipe-content">
+				<RichText.Content tagName="h3" value={ title } />
 
-			{ mediaURL && (
-				<img
-					className="recipe-image"
-					src={ mediaURL }
-					alt={ __( 'Recipe Image', 'dev-talks' ) }
+				<h4>{ __( 'Ingredients', 'dev-talks' ) }</h4>
+				<RichText.Content
+					tagName="ul"
+					className="ingredients"
+					value={ ingredients }
 				/>
-			) }
 
-			<h3>{ __( 'Ingredients', 'dev-talks' ) }</h3>
-			<RichText.Content
-				tagName="ul"
-				className="ingredients"
-				value={ ingredients }
-			/>
-
-			<h3>{ __( 'Instructions', 'dev-talks' ) }</h3>
-			<RichText.Content
-				tagName="div"
-				className="steps"
-				value={ instructions }
-			/>
+				<h4>{ __( 'Instructions', 'dev-talks' ) }</h4>
+				<RichText.Content
+					tagName="div"
+					className="steps"
+					value={ instructions }
+				/>
+			</div>
+			<div className="recipe-image">
+				{ mediaURL && (
+					<img
+						className="recipe-image"
+						src={ mediaURL }
+						alt={ __( 'Recipe Image', 'dev-talks' ) }
+					/>
+				) }
+			</div>
 		</div>
 	);
 };

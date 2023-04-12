@@ -1,6 +1,12 @@
+.wp-block-dev-talks-recipe-card {
+	display: flex;
+}
+
+.wp-block-dev-talks-recipe-card .recipe-content {
+	flex-basis: 50%;
+}
+
 .wp-block-dev-talks-recipe-card .recipe-image {
-	background: #f1f1f1;
-	float: right;
 	width: 50%;
 	min-height: 100px;
 	text-align: center;

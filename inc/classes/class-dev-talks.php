@@ -91,7 +91,8 @@ class Dev_Talks {
 			'banner',
 			'blog-category',
 			'primary-sidebar',
-			'footer-default'
+			'footer-default',
+			'structured-faq-section'
 		);
 
 		foreach ( $patterns as $pattern ) {

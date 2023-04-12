@@ -33,15 +33,41 @@ const Edit = ( props ) => {
 
 	return (
 		<div { ...blockProps }>
-			<RichText
-				tagName="h2"
-				placeholder={ __(
-					'Write Recipe title…',
-					'dev-talks'
-				) }
-				value={ title }
-				onChange={ onChangeTitle }
-			/>
+			<div className="recipe-content">
+				<RichText
+					tagName="h3"
+					placeholder={ __(
+						'Write Recipe title…',
+						'dev-talks'
+					) }
+					value={ title }
+					onChange={ onChangeTitle }
+				/>
+				<h4>{ __( 'Ingredients', 'dev-talks' ) }</h4>
+				<RichText
+					tagName="ul"
+					multiline="li"
+					placeholder={ __(
+						'Write a list of ingredients…',
+						'dev-talks'
+					) }
+					value={ ingredients }
+					onChange={ onChangeIngredients }
+					className="ingredients"
+				/>
+				<h4>{ __( 'Instructions', 'dev-talks' ) }</h4>
+				<RichText
+					tagName="div"
+					multiline="p"
+					className="steps"
+					placeholder={ __(
+						'Write the instructions…',
+						'dev-talks'
+					) }
+					value={ instructions }
+					onChange={ onChangeInstructions }
+				/>
+			</div>
 			<div className="recipe-image">
 				<MediaUpload
 					onSelect={ onSelectImage }
@@ -69,30 +95,6 @@ const Edit = ( props ) => {
 					) }
 				/>
 			</div>
-			<h3>{ __( 'Ingredients', 'dev-talks' ) }</h3>
-			<RichText
-				tagName="ul"
-				multiline="li"
-				placeholder={ __(
-					'Write a list of ingredients…',
-					'dev-talks'
-				) }
-				value={ ingredients }
-				onChange={ onChangeIngredients }
-				className="ingredients"
-			/>
-			<h3>{ __( 'Instructions', 'dev-talks' ) }</h3>
-			<RichText
-				tagName="div"
-				multiline="p"
-				className="steps"
-				placeholder={ __(
-					'Write the instructions…',
-					'dev-talks'
-				) }
-				value={ instructions }
-				onChange={ onChangeInstructions }
-			/>
 		</div>
 	);
 };
