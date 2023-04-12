@@ -331,6 +331,18 @@
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "600",
 					"lineHeight": "normal"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/site-title": {
@@ -338,7 +350,7 @@
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "none"
+								"textDecoration": "underline"
 							}
 						},
 						"typography": {
