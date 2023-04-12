@@ -36,7 +36,7 @@ wp.domReady( function() {
 		'core/media-text',
 		{
 			name: 'custom-media-text',
-			title: 'Media & Text',
+			title: 'Media & Text Variation',
 			isDefault: false,
 			attributes: {
 				mediaPosition: 'right',
