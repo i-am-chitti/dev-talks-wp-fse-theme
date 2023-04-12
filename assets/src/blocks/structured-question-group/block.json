@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dev-talks/structured-question-group",
+	"title": "Question Group",
+	"version": "1.0.0",
+	"category": "theme",
+	"icon": "buddicons-groups",
+	"description": "Structured Question group block containing Question title and answer block to be used inside FAQ block",
+	"parent": [
+		"dev-talks/structured-faq"
+	],
+	"textdomain": "dev-talks",
+	"keywords": [
+		"question",
+		"faq"
+	],
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./index.js"
+}

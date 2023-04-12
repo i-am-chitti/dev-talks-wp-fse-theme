@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dev-talks/structured-answer",
+	"title": "Answer",
+	"version": "1.0.0",
+	"category": "theme",
+	"icon": "sos",
+	"description": "Structured Answer block to be used inside FAQ block",
+	"parent": [
+		"dev-talks/structured-question-group"
+	],
+	"textdomain": "dev-talks",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./index.js"
+}

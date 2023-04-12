@@ -54,5 +54,17 @@ class Blocks {
 			DEV_TALKS_BUILD_DIR . '/blocks/block-extension/'
 		);
 
+		register_block_type(
+			DEV_TALKS_BUILD_DIR . '/blocks/structured-answer'
+		);
+
+		register_block_type(
+			DEV_TALKS_BUILD_DIR . '/blocks/structured-question-group'
+		);
+
+		register_block_type(
+			DEV_TALKS_BUILD_DIR . '/blocks/structured-faq'
+		);
+
 	}
 }
