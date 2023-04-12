@@ -1,6 +1,6 @@
 # Dev Talks
 
-![screenshot](https://user-images.githubusercontent.com/60139930/230917390-40afc2f7-2abf-489f-b128-f7c89d377f35.png)
+![Theme](./screenshots/front-page.png)
 
 
 Dev Talks Theme is a WordPress Full Site Editing (FSE) theme. It is built with flexibility in mind, allowing you to easily customize various aspects of the theme to fit your needs.
