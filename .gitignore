@@ -16,6 +16,9 @@
 #Build
 assets/build
 
+#Vendor
+vendor
+
 # Enviroment
 .env
 .wp-env.override.json
